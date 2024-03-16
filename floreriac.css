@@ -1,0 +1,83 @@
+h1{color:red;}
+
+
+
+body{ 
+color:white;
+}
+header {
+            background-color: #DCB6DE;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+h1 {
+    
+    text-align: center;
+    background: url('fondo flor2.avif');
+    color: black;
+    padding: 60px;
+    
+    }
+
+nav li:hover {
+    background-color: #4A235A;
+    }
+nav ul { 
+   
+    background-color: #566573;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    
+   } 
+nav li {
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover {
+    background-color: gray;
+    }
+
+nav li {
+    display: inline-flex;
+}
+.element {
+    width: 50%;
+    background-color: read;
+}
+footer {
+           background: url('fondo flor2.avif');
+    color: black;
+padding: 60px;
+
+            text-align: center;
+}
+
+@media (max-width: 800px) {
+    .element{
+        width: 100%;
+        background-color: blue;
+    }
+}
+/* If screen size is LESS than 1200px wide */
+@media (max-width: 1200px){ 
+        /* Styles! */
+}
+
+/* If screen size is MORE than 800px wide */
+@media (min-width: 800px){ 
+        /* Styles! */
+}
+
+/* If screen size is BETWEEN 320px and 768px wide AND the orientation is in landscape mode */
+@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
+        /* Styles! */
+}
